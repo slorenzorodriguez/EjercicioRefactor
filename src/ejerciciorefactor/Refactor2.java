@@ -14,22 +14,22 @@ public class Refactor2 {
 
     public static void main(String[] args) {
 
-        int j;
-        int f;
+        int primerOperando; //nombre variable cambiado de 'j' a 'primerOperando'
+        int segundoOperando; //nombre variable cambiado de 'f' a 'segundoOperando'
 
-        j = 8;
+        primerOperando = 8;
 
-        int i;
-        if (j == 0) {
-            f = 1;
+        int tercerOperando; //nombre variable cambiado de 'i' a 'tercerOperando'
+        if (primerOperando == 0) {
+            segundoOperando = 1;
         } else {
-            f = 1;
-            for (i = j; i >= 1; i--) {
-                f = f * i;
+            segundoOperando = 1;
+            for (tercerOperando = primerOperando; tercerOperando >= 1; tercerOperando--) {
+                segundoOperando = segundoOperando * tercerOperando;
             }
         }
 
-        System.out.println(f);
+        System.out.println(segundoOperando);
 
     }
 
